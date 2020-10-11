@@ -1,15 +1,22 @@
 <html>
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 <title>
 test page
 </title>
 </head>
-<body background= "Un.png"><b>
+<body background= "https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="height:100%; background-size:contain;background-repeat:no-repeat;width:100%;background-size: 100% 100%;">
+    <center style="margin-top:100px; font-size: 1.4rem;"><b>
 hello world!</b>
-<div style = "background-color:#f23232">
-<em>ho ho emphasisied </em><strong>yo there!! <abbr title = "this is checking strong tag">strong</abbr></strong>
+<div class="mb-4" style = "background-color:#f23232">
+<em>ho ho emphasisied </em><strong>yo there!! </strong>
 </div>
-<a href ="https://www.w3schools.com">read this</a>
+<a href class="mt-3" ="https://www.w3schools.com">read this</a>
 <img src="https://www.w3schools.com/tags/smiley.gif" alt="smiley"></img>
 <table border="1px solid black">
 <tr>
@@ -29,18 +36,21 @@ hello world!</b>
 <td>20</td>
 </tr>
 </table>
-<form>
-<label>name</label>
-<input type="text" name= "name"></input><br>
-<label>age</label>
-<input type="number" name="age"></input><br><br>
-<input type="submit">
-<input type="reset"><br>
-<input type="button" onclick="alert('magic!!')" value="click">
+<form style="margin-top:30px;">
+<label>Name</label>
+<input type="text" class="mb-3" name= "name"></input><br>
+<label>Age</label>
+<input  type="number"  name="age"></input><br><br>
+<input class="btn btn-primary" type="submit">
+<input  class="btn btn-warning"type="reset"><br>
+<input  class="btn btn-sm"type="button" onclick="alert('magic!!')" value="click">
 </form>
 <address>
 visit us at:<br>
 example.com <br>
 </address>
+</center>
+
+
 </body>
 </html>
